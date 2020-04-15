@@ -1,0 +1,35 @@
+.page {
+    background-color: black;
+}
+
+.postarea {
+    background-color: #262626;
+    width: min(max(60%, 500px), 1000px);
+    margin: 0 auto;
+    color: white;
+}
+
+.postcontent {
+    margin: 0 auto;
+    padding: 30px 5%;
+}
+
+span.elem {
+    height: 30%;
+}
+
+.postcontent * {
+    font-family: Helvetica, Arial, sans-serif;;
+}
+
+.emoji {
+    height: 20px;
+}
+
+.highlight {
+    color: #9effb8;
+}
+
+img {
+    box-shadow: 0px 0px 20px #fff;
+}
