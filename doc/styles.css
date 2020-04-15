@@ -30,6 +30,6 @@ span.elem {
     color: #9effb8;
 }
 
-img {
+img.glow {
     box-shadow: 0px 0px 20px #fff;
 }
