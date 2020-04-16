@@ -26,10 +26,27 @@ span.elem {
     height: 20px;
 }
 
-.highlight {
+.highlight, imp {
     color: #9effb8;
 }
 
 img.glow {
     box-shadow: 0px 0px 20px #fff;
+    margin: 15px 0px;
+}
+
+a {
+    color: #baf9ff;
+}
+a:hover {
+    color: #f5ff66;
+}
+
+.block {
+    border: white 3px solid;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+    background-color: #151515;
+    color: fbffe0;
 }
