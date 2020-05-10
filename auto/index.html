@@ -11,7 +11,7 @@
     </div>
     <script>
         (function() {
-            var params = new URLSearchParams(location.href);
+            var params = new URL(location).searchParams;
             if (!params.has("code")) {
                 $("#result").text("인증할 수 없습니다.");
                 return;
@@ -27,7 +27,8 @@
                 },
                 error: () => {
                     $("#result").text("인증에 실패했습니다. 새로 고침하여 다시 시도하세요!");
-                }
+                },
+                contentType: "application/json"
             })
         })();
     </script>
